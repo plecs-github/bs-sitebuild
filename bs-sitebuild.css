@@ -43,11 +43,36 @@ background-color: rgba(254, 201, 71, 0.9);
 padding-top: 80px;
 padding-bottom: 80px;
 }
-
 .myJumbotron:hover {
     background-color: rgba(254, 201, 71, 1);
     padding-top: 80px;
     padding-bottom: 80px;
     }
-    
+.store-logo {
+    width: 200px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.myJumbotronDiscover {
+    background-color: rgba(254, 201, 71, 0.9);
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+
+
+
+/* .stopWaiting {
+    width: 100 vw;
+    display: border-box;
+   border:5px solid red;
+}
+.photo {
+    filter: brightness (10%);
+}
+.source {
+    padding: 0;
+    border: 0;
+    margin: 0;
+} */
 
