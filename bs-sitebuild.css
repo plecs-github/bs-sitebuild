@@ -1,5 +1,53 @@
 .footer-links:hover {
     cursor: pointer;
-color: #fdcc52;
+    color: #fdcc52;
+}
+.twitter {
+    background-color: rgb(29, 161, 242);
+    height: 83px;
+    width: 83px;
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 0.6rem;
+}
+.facebook {
+    background-color: rgb(66, 103, 178);
+    height: 83px;
+    width: 83px;
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 0.6rem;
+}
+.google {
+    background-color: rgb(248, 0, 0);
+    height: 83px;
+    width: 83px;
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 0.6rem;
+}
+.twitter-icon {
+    position: relative;
+    top: 17px;
+}
+.facebook-icon {
+    position: relative;
+    top: 17px;
+}
+.google-icon {
+    position: relative;
+    top: 17px;
+}
+.myJumbotron {
+background-color: rgba(254, 201, 71, 0.9);
+padding-top: 80px;
+padding-bottom: 80px;
+}
 
-};
+.myJumbotron:hover {
+    background-color: rgba(254, 201, 71, 1);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+    
+
