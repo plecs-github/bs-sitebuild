@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+header {
+    background-image: url(img/bg-pattern.png), linear-gradient(to right, rgb(219, 36, 49), rgb(143, 61, 130));
+}
+
 .footer-links:hover {
     cursor: pointer;
     color: #fdcc52;
@@ -39,9 +54,9 @@
     top: 17px;
 }
 .myJumbotron {
-background-color: rgba(254, 201, 71, 0.9);
-padding-top: 80px;
-padding-bottom: 80px;
+    background-color: rgba(254, 201, 71, 0.9);
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .myJumbotron:hover {
     background-color: rgba(254, 201, 71, 1);
@@ -58,21 +73,27 @@ padding-bottom: 80px;
     padding-top: 50px;
     padding-bottom: 140px;
 }
-
-
-
-
-/* .stopWaiting {
-    width: 100 vw;
-    display: border-box;
-   border:5px solid red;
+.phone {
+    max-width: 250px;
+    margin: 8rem 5rem;
 }
-.photo {
-    filter: brightness (10%);
+.text-for-stopWaiting {
+    position: relative;
+    top: 40%
 }
-.source {
-    padding: 0;
-    border: 0;
-    margin: 0;
-} */
-
+.stopWaiting {
+   height: 800px; 
+   background-image: url("img/bg-cta.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.outline-button {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    width: auto;
+    transition-duration: 300ms;
+}   
+.outline-button:hover {
+    background-color: rgb(253, 204, 82);
+    border: 1px solid rgb(253, 204, 82);
+}  
