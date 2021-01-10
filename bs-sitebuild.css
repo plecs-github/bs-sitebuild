@@ -9,6 +9,16 @@ body {
     height: 100%;
     width: 100%;
 }
+
+h1 {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+.btn,
+{
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
 header {
     background-image: url(img/bg-pattern.png), linear-gradient(to right, rgb(219, 36, 49), rgb(143, 61, 130));
 }
@@ -77,10 +87,7 @@ header {
     max-width: 250px;
     margin: 8rem 5rem;
 }
-.text-for-stopWaiting {
-    position: relative;
-    top: 40%
-}
+
 .stopWaiting {
    height: 800px; 
    background-image: url("img/bg-cta.jpg");
@@ -90,10 +97,12 @@ header {
 .outline-button {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 30px;
-    width: auto;
     transition-duration: 300ms;
 }   
 .outline-button:hover {
     background-color: rgb(253, 204, 82);
     border: 1px solid rgb(253, 204, 82);
 }  
+.sw {
+    font-size: 5rem;
+}
